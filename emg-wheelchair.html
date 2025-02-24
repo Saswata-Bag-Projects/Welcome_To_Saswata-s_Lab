@@ -20,9 +20,14 @@
             margin: auto;
             text-align: left;
         }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
         img {
             width: 100%;
-            max-width: 600px;
+            max-width: 400px;
             margin: 20px 0;
         }
     </style>
@@ -95,8 +100,11 @@
             <li>Voice-controlled assistance</li>
         </ul>
         
-        <h2>Project Image</h2>
-        <img src="eng-wheelchair.jpg" alt="EMG Wheelchair Image">
+        <h2>Project Images</h2>
+        <div class="image-container">
+            <img src="eng-wheelchair.jpg" alt="EMG Wheelchair Image">
+            <img src="emg-wheelchair.jpg" alt="EMG Wheelchair Alternative View">
+        </div>
     </div>
 </body>
 </html>

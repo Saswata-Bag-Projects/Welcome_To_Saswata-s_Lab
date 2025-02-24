@@ -68,7 +68,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="images/index.png" alt="Profile Picture">
+        <img src="index.png" alt="Profile Picture">
         <p class="intro">
             <span class="name">Saswata Bag</span>
             Innovator and developer of cutting-edge technological solutions. Passionate about engineering and automation, dedicated to creating impactful projects that enhance efficiency, safety, and accessibility.

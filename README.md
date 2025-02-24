@@ -1,1 +1,90 @@
-Hi My Name Is Saswata Bag
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            padding: 20px; 
+            background-color: #f4f4f4; 
+        }
+        .container { 
+            max-width: 800px; 
+            margin: auto; 
+            background: white; 
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+            text-align: center; 
+        }
+        h1 { text-align: center; }
+        ul { 
+            list-style: none; 
+            padding: 0; 
+            text-align: left; 
+        }
+        li { 
+            background: #ddd; 
+            margin: 10px 0; 
+            padding: 10px; 
+            border-radius: 5px; 
+        }
+        a { 
+            text-decoration: none; 
+            color: #007BFF; 
+            font-weight: bold; 
+            transition: 0.3s; 
+        }
+        a:hover { 
+            color: white; 
+            background-color: #007BFF; 
+            padding: 5px; 
+            border-radius: 5px; 
+        }
+        img { 
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%; 
+            display: block; 
+            margin: 20px auto; 
+        }
+        .intro { 
+            font-size: 16px; 
+            margin-bottom: 20px; 
+            color: #333; 
+            text-align: center; 
+            line-height: 1.6; 
+        }
+        .name { 
+            font-size: 22px; 
+            font-weight: bold; 
+            display: block; 
+            margin-bottom: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/index.png" alt="Profile Picture">
+        <p class="intro">
+            <span class="name">Saswata Bag</span>
+            Innovator and developer of cutting-edge technological solutions. Passionate about engineering and automation, dedicated to creating impactful projects that enhance efficiency, safety, and accessibility.
+        </p>
+        <h1>My Projects</h1>
+        <ul>
+            <li><a href="chetak.html">Chetak</a> – A groundbreaking invention by Saswata Bag.</li>
+            <li><a href="smart-helmet.html">Smart Safety Helmet</a> – An advanced safety-enhancing helmet engineered by Saswata Bag.</li>
+            <li><a href="emg-wheelchair.html">EMG-Controlled Wheelchair</a> – A mobility aid utilizing EMG signals, innovated by Saswata Bag.</li>
+            <li><a href="smart-bin.html">Smart Bin</a> – An automated waste management system designed by Saswata Bag.</li>
+            <li><a href="ardui-no.html">Tetris On Arduino</a> – A Tetris game using LED strips, developed by Saswata Bag.</li>
+            <li><a href="achievements.html">ACHIEVEMENTS</a></li>
+        </ul>
+
+        <h2>Contact Info</h2>
+        <p>Email: <a href="mailto:saswatabag7928@gmail.com">saswatabag7928@gmail.com</a></p>
+    </div>
+</body>
+</html>

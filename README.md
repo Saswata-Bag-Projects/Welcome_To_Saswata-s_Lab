@@ -75,11 +75,11 @@
         </p>
         <h1>My Projects</h1>
         <ul>
-            <li><a href="chetak.html">Chetak</a> – A groundbreaking invention by Saswata Bag.</li>
-            <li><a href="smart-helmet.html">Smart Safety Helmet</a> – An advanced safety-enhancing helmet engineered by Saswata Bag.</li>
-            <li><a href="emg-wheelchair.html">EMG-Controlled Wheelchair</a> – A mobility aid utilizing EMG signals, innovated by Saswata Bag.</li>
-            <li><a href="smart-bin.html">Smart Bin</a> – An automated waste management system designed by Saswata Bag.</li>
-            <li><a href="ardui-no.html">Tetris On Arduino</a> – A Tetris game using LED strips, developed by Saswata Bag.</li>
+            <li><a href="chetak.html">Chetak</a> – A groundbreaking invention.</li>
+            <li><a href="smart-helmet.html">Smart Safety Helmet</a> – An advanced safety-enhancing helmet .</li>
+            <li><a href="emg-wheelchair.html">EMG-Controlled Wheelchair</a> – A mobility aid utilizing EMG signals .</li>
+            <li><a href="smart-bin.html">Smart Bin</a> – An automated waste management system.</li>
+            <li><a href="ardui-no.html">Tetris On Arduino</a> – A Tetris game using LED strips.</li>
             <li><a href="achievements.html">ACHIEVEMENTS</a></li>
         </ul>
 

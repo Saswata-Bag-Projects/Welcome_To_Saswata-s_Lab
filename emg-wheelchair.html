@@ -7,7 +7,6 @@
             font-family: Arial, sans-serif;
             margin: 40px;
             text-align: center;
-            background-color: #f4f4f4;
         }
         h1, h2 {
             color: #333;
@@ -20,10 +19,6 @@
             max-width: 800px;
             margin: auto;
             text-align: left;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .image-container {
             display: flex;
@@ -35,21 +30,30 @@
             width: 100%;
             max-width: 400px;
             margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .back-link {
-            display: inline-block;
-            text-decoration: none;
-            background: #007BFF;
+        .slideshow-container {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+        }
+        .slides {
+            display: none;
+            width: 100%;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: auto;
+            padding: 10px;
             color: white;
-            padding: 10px 15px;
-            border-radius: 5px;
-            margin-top: 20px;
+            background-color: rgba(0,0,0,0.5);
+            border: none;
+            font-size: 18px;
         }
-        .back-link:hover {
-            background: #0056b3;
-        }
+        .prev { left: 0; }
+        .next { right: 0; }
     </style>
 </head>
 <body>
@@ -121,12 +125,32 @@
         </ul>
         
         <h2>Project Images</h2>
-        <div class="image-container">
-            <img src="emg-wheelchair1.jpg" alt="EMG Wheelchair Prototype - Initial Version">
-            <img src="emg-wheelchair2.jpg" alt="EMG Wheelchair - Side View">
-            <img src="emg-wheelchair3.png" alt="EMG Wheelchair - Technical Diagram">
-            <img src="emg-wheelchair4.png" alt="EMG Wheelchair - Future Concept">
+        <div class="slideshow-container">
+            <img class="slides" src="emg-wheelchair1.jpg">
+            <img class="slides" src="emg-wheelchair2.png">
+            <img class="slides" src="emg-wheelchair3.png">
+            <img class="slides" src="emg-wheelchair4.png">
+            <img class="slides" src="emg-wheelchair.png">
+            <img class="slides" src="eng-wheelchair.jpg">
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
         </div>
+        
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+                let slides = document.getElementsByClassName("slides");
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1; }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 3000); // Change every 3 seconds
+            }
+        </script>
         
         <a href="index.html" class="back-link">Back to Home</a>
     </div>

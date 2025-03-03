@@ -7,6 +7,7 @@
             font-family: Arial, sans-serif;
             margin: 40px;
             text-align: center;
+            background-color: #f4f4f4;
         }
         h1, h2 {
             color: #333;
@@ -19,6 +20,10 @@
             max-width: 800px;
             margin: auto;
             text-align: left;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .image-container {
             display: flex;
@@ -30,6 +35,20 @@
             width: 100%;
             max-width: 400px;
             margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .back-link {
+            display: inline-block;
+            text-decoration: none;
+            background: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .back-link:hover {
+            background: #0056b3;
         }
     </style>
 </head>
@@ -103,14 +122,13 @@
         
         <h2>Project Images</h2>
         <div class="image-container">
-            <img src="emg-wheelchair1.jpg">
-            <img src="eng-wheelchair.jpg" >
-            <img src="emg-wheelchair3.png">
-            <img src="emg-wheelchair4.png">
-
-             <a href="index.html" class="back-link">Back to Home</a>
-    
+            <img src="emg-wheelchair1.jpg" alt="EMG Wheelchair Prototype - Initial Version">
+            <img src="emg-wheelchair2.jpg" alt="EMG Wheelchair - Side View">
+            <img src="emg-wheelchair3.png" alt="EMG Wheelchair - Technical Diagram">
+            <img src="emg-wheelchair4.png" alt="EMG Wheelchair - Future Concept">
         </div>
+        
+        <a href="index.html" class="back-link">Back to Home</a>
     </div>
 </body>
 </html>
